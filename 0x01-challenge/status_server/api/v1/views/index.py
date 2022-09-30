@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" the file that handles the sucses return
+""" Index file that handles the sucses code
 """
 from flask import jsonify
 
@@ -8,6 +8,6 @@ from api.v1.views import app_views
 
 @app_views.route('/status', methods=['GET'], strict_slashes=False)
 def status():
-    """ show the web server status
+    """ the web server status code string
     """
     return  jsonify({"status": "OK"})
