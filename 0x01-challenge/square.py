@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+my class square
+"""
 class square():
     """
     the class square that returns the square area
