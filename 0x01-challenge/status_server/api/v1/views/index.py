@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Index view
+""" the file that handles the sucses return
 """
 from flask import jsonify
 
@@ -8,6 +8,6 @@ from api.v1.views import app_views
 
 @app_views.route('/status', methods=['GET'], strict_slashes=False)
 def status():
-    """ Status of the web server
+    """ show the web server status
     """
-    return jsonify({"status": "OK"})
+    return  jsonify({"status": "OK"})
